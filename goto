@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std ;
+
+int main ()
+{
+	//membuat program goto
+	char jump = 'Z' ;
+	
+	cout << " Masukkan angka 1 untuk melompat " << endl ;
+	cout << " Masukkan angka 2 untuk tidak melompat " << endl ;
+	cin >> jump ;
+	
+	cout << " R " << endl ;
+	if ( jump == '1') goto lompat ;
+	cout << " S " << endl ;
+	lompat :
+		cout << " T " << endl ;
+}
